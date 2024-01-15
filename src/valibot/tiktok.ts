@@ -11,7 +11,7 @@ export type XValidation<TInput extends string> = BaseValidation<TInput> & {
 };
 
 export function tiktok<TInput extends string>(
-  message: ErrorMessage = " Usernames can only contain letters, numbers, underscores, and periods. However, periods can't be added to the end of a username."
+  message: ErrorMessage = "Usernames can only contain letters, numbers, underscores, and periods. However, periods can't be added to the end of a username."
 ): XValidation<TInput> {
   return {
     type: "tiktok",
