@@ -1,4 +1,4 @@
-import { x } from "../valibot";
+import { x } from "../valibot/x";
 
 describe("x", () => {
   test("X (formerly Twitter) handle validation", () => {

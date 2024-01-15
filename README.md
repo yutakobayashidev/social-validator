@@ -8,3 +8,12 @@
 - FaceBook
 - Discord
 - TikTok
+
+## Usage
+
+```ts
+import { x } from "social-validator/valibot/x";
+import { parse } from "valibot";
+
+const data = parse(x, "elonmusk"); // elonmusk
+```
